@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+}
+
+#gridCont {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+#grid {
+  background-color: blue;
+  border: 2px solid black;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+.row {
+  background-color: white;
+  flex: 1;
+  display: flex;
+  flex-grow: 1;
+}
+
+.tile {
+  background-color: white;
+  flex: 1;
+  flex-grow: 1;
+  width: calc(100% / var(--tiles));
+  aspect-ratio: 1/1;
+}
