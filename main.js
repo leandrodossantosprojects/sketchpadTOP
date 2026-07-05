@@ -43,7 +43,7 @@ resizeBtn.textContent = "Resize the grid";
 
 Object.assign(popupTitle, {
   id: "popupTitle",
-  textContent: "Size the grid",
+  textContent: "Input a number between 2 & 100",
   className: "popupItem",
 });
 
